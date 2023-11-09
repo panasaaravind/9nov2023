@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>welcome to css</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <style>
+            div.x{
+                width:200px;
+                height: 200px;
+                display: inline-block;
+            }
+            div.y{
+                border-radius: 200px;
+            }
+            div.d{
+                background-color: violet;
+                border-top-right-radius:200px;
+                border-bottom-left-radius:200px;
+            }
+            div.d:hover{
+                background-color: yellow;
+            }
+            div.y:hover{
+                background-color: chartreuse;
+
+            }
+            div.a:hover {
+                background-color: pink !important;
+                border: 1px solid red;
+            }
+            div.b:hover{
+                background-color: brown !important;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="a x y" style="background-color: aqua;">A</div>
+        <div class="b x" style="width:200px;height:200px;background-color:blue;border-top-left-radius: 200px;border-bottom-right-radius:200px;">B</div>
+        <div class="c x y">C</div>
+        <div class="d x">D</div>
+
+    </body>
+    </html>
